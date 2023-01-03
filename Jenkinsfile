@@ -1,5 +1,5 @@
-peline {
-    agent {label 'mysshnode'}
+pipeline {
+    agent any
 
     tools {
         gradle "mygradle"
